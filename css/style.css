@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+header{
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: gray 0,5px solid;
+}
+
+header a{
+    font-family:sans-serif;
+    text-decoration: none; 
+    color: black;
+    
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo h1{
+    margin: 0%;
+}
+
+header nav{
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    
+}
+header ul{
+    margin: 0%;
+    
+}
+
+header li{
+    display: inline-block;
+    margin-left: 20px;
+    /*float: left;*/
+    padding-top: 0 20px 0 20px;
+}
+.header li:first-child{
+     margin:0%
+
+}
+.header li img{
+    margin-top:10px;
+} 
+
+/*BOX1*/
+.box1{
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(155, 209, 205);
+    
+}
+.container2{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.text{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Yaldevi', sans-serif;
+    left: 10%;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+h1{
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+.button{
+    border: 0.5px solid white;
+    border-radius:100px;
+    padding:5px 20px 5px 20px;
+    background-color: #fff;
+    width: 50px;
+    height: 30px;
+
+}
+
+.button p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* #slider figure img {
+    position: absolute; 
+    top:0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#slider figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float: left;
+}   */
+
+/* SLIDER */
+/* #slider{
+    overflow: hidden;
+    
+}
+
+
+#slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left: 50px;
+    animation: 15s slider infinite;
+    
+}
+
+.sofa{
+    margin-top: 100px;
+}
+
+
+
+ #slider figure img{
+    width: 10%;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    float: left;
+    object-fit: cover;
+    
+} 
+
+@keyframes slider  {
+    0%{
+        left: 50;
+    }
+    20%{
+        left: 50;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-200%; 
+    }
+    50%{
+        left:-200%;
+    } 
+    
+    
+    
+        
+       
+
+} */
+
+
+
+/*BOX2*/
+
+.box2{
+    display: grid;
+    grid-gap: 10px;
+    
+}
+.box2 h1{
+    margin-left: 50%;
+}
+.catalog{
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    height: 370px;
+    
+    
+
+}
+.first{
+    display: grid;
+    grid-row: 1/3;
+    
+    background-color: #F5F5F5;
+    
+}
+.first img{
+    width: 50%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+    
+}
+.first h4{
+    margin-left: 40%;
+}
+
+ 
+.sec{
+    display: grid;
+    grid-row: 1/3;
+   
+    background-color: #F5F5F5;
+}
+.sec img{
+    width: 70%;
+    margin-left: 50px;
+}
+
+.sec h4{
+    margin-left: 40%;
+}
+
+
+.third{
+    display: grid;
+    grid-row: 1/3;
+   
+    background-color: #B7D9FF;
+}
+
+.third img{
+    width: 70%;
+    margin-left: 50px;
+}
+
+.third h4{
+    margin-left: 40%;
+}
+
+
+.catalog2{
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    
+}
+
+
+.fourth{
+    display: grid;
+    grid-row: 1/2;
+    
+    background-color: #EBD9D9;
+    height: 250px;
+}
+
+.fourth img{
+    width: 40%;
+    margin-left: 200px;
+    margin-bottom: 10%;
+    
+}
+.fourth h4{
+    margin-left: 40%;
+}
+
+
+.fifth{
+    display: grid;
+    grid-row: 1/2;
+   
+    background-color: #F5F5F5;
+    height: 250px;
+}
+
+.fifth img{
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.fifth h4{
+    margin-left: 40%;
+}
+
+.catalog3{
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    height: 370px;
+}
+
+.seventh{
+    display: grid;
+    grid-row: 1/2;
+    
+    background-color: #E6E2F0;
+    height: 250px;
+}
+
+.seventh img{
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.seventh h4{
+    margin-left: 50%;
+}
+
+
+.sixth{
+    display: grid;
+    grid-row: 1/2;
+    
+    background-color:#F5F5F5;
+    height: 250px;
+}
+
+.sixth img{
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.sixth h4{
+    margin-left: 40%;
+}
+
+/*Button*/
+
+.foot{
+    width: 90px;
+    position: relative;
+   
+    
+}
+.button2{
+     position: absolute; 
+    bottom: 50px;
+    left:550px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 0.5px solid white;
+    border-radius: 100px;
+    padding:5px 20px 5px 20px;
+    background-color: rgb(219, 219, 219);
+    width: 70px;
+    height: 20px;
+    color: gray;
+    align-items: center;
+}
+
+
+
+/****************** MORE INFO BUTTONS **************/
+.box2 a{
+    width: 20%;
+    margin-left: 40%;
+}
+
+
+
+
+
+
